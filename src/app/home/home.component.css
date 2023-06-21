@@ -1,0 +1,174 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section */
+#hero {
+  background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgICAcIBwcHCAoHBwcHBw8ICQcKIBEWFiARExMYHSggGBolJxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0PFSsZFRkrKys3Ny0rLTcrNy0rKys3NzctLSsrKystKysrKysrLSsrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAaAAEBAQADAQAAAAAAAAAAAAAAAQIDBAcF/8QAGRABAQEAAwAAAAAAAAAAAAAAAAERMUFh/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwUGBP/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIC/9oADAMBAAIRAxEAPwD1Nmg2cOQQAuQADSRADaQRagaQADWCVUvJtIgAawoBtIIoprEANcEVFStIAGuJYYorTZo0lh6pBcMMaguGAai4oWgASTnQHyvHyAIFyKgGuQBA0gAGkAA0glWpoaRAA0gAbSABtIIoetIgCtXKgoerlQA9MAPT0APT0AGjQAtGgA0nMgPneUkBAKioAXIABpAAlwADSFRQLiItQNIADWkAD1cABq4IoerlQUVqkAPVaIoeq1MFBo1BQaaCg0gABsLU1m8vIomgVIpqIFxdNQJcUQJcX01ALihDslwMFhNIYmKDVxMMUGrjI1hg1cZFww9UgoeqlQVD1QAemIoNPUFBo1BQaNRQGjQRTx5vAQClECVFAC4AEuCoJqoLBYS4AE0gAWrgAWqgANWADVAA1SVcA9OUxMUPo0FMGmhi4Hpphig0IjRg0MCDd55RAGoilVgCTiiKS4AJq4NRlqJXABNq4AqdXAAtVAULVoKFqogoOjQUPo0FB0bI0h9HqCh6EFD0IKDQ4dNQfbjgrqshYbQkUlCoJpxQE1cFRU1cFhFRVwARVxQE2rgoJtVAFTq0FwwtVAMWQujRGsTB0EFww+jQXA9NBUPoAB6BFD0a6wg6bhKIpGsEE2KaisrpWHFVCIq4qosZ1cWKy1EVcFRWdXBQRauChEWrgoqbVIoJ1QAWmADTAD6AmKDQmJjQrTZFMVKGRcD0OmEHZxwVECw1VFKqiiKiqaEis6qKsRYzrSDTLUZ1cFRYztaRVRWVq4YoqLVwBUWrgCo00FC00FBoQVBoAFaaCitCAKlIRQ9DoEoO+4SiEpWBVQTVRoRUVUWNMxpnVxVjKxnWkVqMtRj6XFVIrL01irEjTK1cAisrVwBWdqyAsTpoLhhaaC4YWniDSYejEMBWkgoqUIAqUkFFSh84B6NwRQIyVQTTWKgirjSwGfpcWKDH00itQGXppFigw9NIsaBl6aQaQZVcVYgzq2gEHABJgAAAoCVAwALhCAqAAVCf/9k=');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Features section */
+#features {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#features h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+
+  #features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .feature i {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .feature h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .feature p {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
